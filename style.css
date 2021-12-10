@@ -1,0 +1,44 @@
+/*
+width:432px
+height:381
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.img {
+    background-color: black;
+    width: 470px;
+    height: 350px;
+    text-align: center;
+}
+h1 {
+    font-family: Extra-light 200;
+    margin: 10px;
+    padding-top: 60px;
+    color: orange;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 80px;
+  
+}
+td {
+   position: absolute;
+   top: 60px;
+    border-bottom: 2px solid rgb(179, 117, 4);
+    width: 432px;
+    height: 200px;
+   margin-left: 20px;
+
+  border-width: 15px;
+}
+@media screen and (max-device-width:545px) {
+.img {
+    margin-top: 50px;
+}
+  td {
+      margin-top: 36px;
+  }  
+}
